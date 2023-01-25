@@ -63,7 +63,7 @@ runs:
         dockerfile: "${{ inputs.path }}/${{ inputs.file }}"
         lint: hadolint
 
-    - uses: docker/setup-buildx-action@v2.0.0
+    - uses: docker/setup-buildx-action@v2
 
     # Default Registry with BASIC authentification
     - uses: docker/login-action@v1
@@ -91,7 +91,7 @@ runs:
         workload_identity_provider: ${{ inputs.gcp_workload_identity_provider }}
         service_account: ${{ inputs.gcp_service_account }}
 
-    - uses: docker/login-action@v1.14.1
+    - uses: docker/login-action@v2
       if: inputs.gcp_registry != ''
       with:
         registry: ${{ inputs.gcp_registry }}
@@ -100,7 +100,7 @@ runs:
 
     # Prepare Image Build
     - id: meta
-      uses: docker/metadata-action@v3
+      uses: docker/metadata-action@v4
       with:
         images: |
           ${{ inputs.registry }}/neospheres/${{ inputs.name }}
