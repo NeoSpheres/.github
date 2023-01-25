@@ -131,4 +131,3 @@ runs:
         build-args: ${{ inputs.build-args }}
         cache-from: type=gha
         cache-to: type=gha,mode=max
-        load: true
