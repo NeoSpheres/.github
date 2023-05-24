@@ -10,7 +10,8 @@ inputs:
     required: true
   tag:
     description: 'Docker image tag'
-    required: true
+    required: false
+    default: ""
   platforms:
     required: false
     default: "linux/amd64"
