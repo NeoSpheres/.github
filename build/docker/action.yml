@@ -108,7 +108,10 @@ runs:
         tags: |
             ${{ inputs.tag }}
             ${{ inputs.version }}
+            type=ref,event=pr
             type=semver,pattern={{version}}
+            type=semver,pattern={{major}}.{{minor}}
+            type=semver,pattern={{major}}
 
     - id: qemu
       uses: docker/setup-qemu-action@v2
