@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.0](https://github.com/NeoSpheres/.github/compare/v1.2.0...v1.3.0) (2023-07-20)
+
+
+### 🚀 Features
+
+* **docker:** Support github_token ([6e6c053](https://github.com/NeoSpheres/.github/commit/6e6c0533a4bacdd6bc24c1666db591fb092b0a42))
+
 ## [1.2.0](https://github.com/NeoSpheres/.github/compare/v1.1.1...v1.2.0) (2023-05-24)
 
 
