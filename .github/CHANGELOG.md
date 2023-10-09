@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.1](https://github.com/NeoSpheres/.github/compare/v1.3.0...v1.3.1) (2023-10-09)
+
+
+### 🧰 Other
+
+* release 1.3.1 ([779b00c](https://github.com/NeoSpheres/.github/commit/779b00c9c8a0311c6c82c781e81544ee5ae3889a))
+
 ## [1.3.0](https://github.com/NeoSpheres/.github/compare/v1.2.0...v1.3.0) (2023-07-20)
 
 
