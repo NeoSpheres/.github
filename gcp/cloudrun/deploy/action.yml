@@ -85,6 +85,7 @@ runs:
         image: ${{ inputs.artifact_registry }}/${{ inputs.image_name }}:${{ inputs.image_version }}
         service: ${{ inputs.service }}
         region: ${{ inputs.region }}
+        tag_traffic: 'latest=100'
     # - id: success
     #   name: Update deployment status (success)
     #   if: success()
