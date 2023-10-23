@@ -30,6 +30,7 @@ runs:
       with:
         java-version: ${{ inputs.java_version }}
         distribution: ${{ inputs.java_distribution }}
+        cache: 'maven'
 
     - name: Cache SonarCloud packages
       uses: actions/cache@v3
@@ -37,12 +38,6 @@ runs:
         path: ~/.sonar/cache
         key: ${{ runner.os }}-sonar
         restore-keys: ${{ runner.os }}-sonar
-
-    - uses: actions/cache@v3
-      with:
-        path: ~/.m2
-        key: ${{ runner.os }}-m2-${{ hashFiles('**/pom.xml') }}
-        restore-keys: ${{ runner.os }}-m2
 
     - run: mvn -B test org.sonarsource.scanner.maven:sonar-maven-plugin:sonar
       shell: bash
