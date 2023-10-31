@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.2](https://github.com/NeoSpheres/.github/compare/v1.3.1...v1.3.2) (2023-10-31)
+
+
+### 🐞 Bug Fixes
+
+* Use maven cache in java action [#17](https://github.com/NeoSpheres/.github/issues/17) ([9e2c293](https://github.com/NeoSpheres/.github/commit/9e2c2931aa4a251c852798e5c3c03dd55401b58a))
+
 ## [1.3.1](https://github.com/NeoSpheres/.github/compare/v1.3.0...v1.3.1) (2023-10-09)
 
 
