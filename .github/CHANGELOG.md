@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.1](https://github.com/NeoSpheres/.github/compare/v1.4.0...v1.4.1) (2023-12-12)
+
+
+### 🐞 Bug Fixes
+
+* Var injection for telemetry ([#22](https://github.com/NeoSpheres/.github/issues/22)) ([d218ac5](https://github.com/NeoSpheres/.github/commit/d218ac5f8a31b97e75b2ee24b2825fccdddeadcd))
+
 ## [1.4.0](https://github.com/NeoSpheres/.github/compare/v1.3.2...v1.4.0) (2023-12-12)
 
 
