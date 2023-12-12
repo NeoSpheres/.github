@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.2](https://github.com/NeoSpheres/.github/compare/v1.4.1...v1.4.2) (2023-12-12)
+
+
+### 🧰 Other
+
+* Force release ([#25](https://github.com/NeoSpheres/.github/issues/25)) ([3d0028a](https://github.com/NeoSpheres/.github/commit/3d0028a3ad20b0139a8e3bc694aa67a6f08c8492))
+
 ## [1.4.1](https://github.com/NeoSpheres/.github/compare/v1.4.0...v1.4.1) (2023-12-12)
 
 
