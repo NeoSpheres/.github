@@ -78,4 +78,4 @@ runs:
         service: ${{ inputs.service }}
         region: ${{ inputs.region }}
         env_vars: |
-          OTEL_RESOURCE_ATTRIBUTES=service.name=${{ inputs.service }},service.version=${{ inputs.image_version }},deployment.environment=${{ inputs.project }}
+          OTEL_RESOURCE_ATTRIBUTES="service.name=${{ inputs.service }},service.version=${{ inputs.image_version }},deployment.environment=${{ inputs.project }}"
