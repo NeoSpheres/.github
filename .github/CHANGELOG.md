@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.0](https://github.com/NeoSpheres/.github/compare/v1.3.2...v1.4.0) (2023-12-12)
+
+
+### 🚀 Features
+
+* **gcp:** Add telemetry metadata ([#20](https://github.com/NeoSpheres/.github/issues/20)) ([8b9f8ed](https://github.com/NeoSpheres/.github/commit/8b9f8edffd99cc543257f1bae42ce67203127d2d))
+
 ## [1.3.2](https://github.com/NeoSpheres/.github/compare/v1.3.1...v1.3.2) (2023-10-31)
 
 
