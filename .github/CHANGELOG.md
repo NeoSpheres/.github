@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.3](https://github.com/NeoSpheres/.github/compare/v1.4.2...v1.4.3) (2023-12-13)
+
+
+### 🐞 Bug Fixes
+
+* GCP env_vars split ([#27](https://github.com/NeoSpheres/.github/issues/27)) ([c9e9a3d](https://github.com/NeoSpheres/.github/commit/c9e9a3d2ff455f47929a46f1584af80d76c3f7b2))
+
 ## [1.4.2](https://github.com/NeoSpheres/.github/compare/v1.4.1...v1.4.2) (2023-12-12)
 
 
