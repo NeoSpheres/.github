@@ -89,7 +89,7 @@ runs:
 
     # GCP Registry with access token (WIF)
     - id: auth
-      uses: 'google-github-actions/auth@v1'
+      uses: 'google-github-actions/auth@v2'
       if: steps.google_artifact.outputs.image != ''
       with:
         token_format: 'access_token'
