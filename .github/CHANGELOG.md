@@ -1,5 +1,15 @@
 # Changelog
 
+## [1.4.4](https://github.com/NeoSpheres/.github/compare/v1.4.3...v1.4.4) (2024-01-05)
+
+
+### 🧰 Other
+
+* **deps:** bump actions/checkout in /test/sonar/maven ([#31](https://github.com/NeoSpheres/.github/issues/31)) ([2196efb](https://github.com/NeoSpheres/.github/commit/2196efb344197bfe6336cd6c9cc821355bc5f24e))
+* **deps:** bump actions/setup-java from 3 to 4 in /test/sonar/maven ([#33](https://github.com/NeoSpheres/.github/issues/33)) ([7f82828](https://github.com/NeoSpheres/.github/commit/7f82828bd32e38a43330caca7f4add72e26b274e))
+* **deps:** bump google-github-actions/auth in /build/docker ([#35](https://github.com/NeoSpheres/.github/issues/35)) ([1a4671f](https://github.com/NeoSpheres/.github/commit/1a4671f4040cd9e95bbfd3bb50a023041c8c3704))
+* **deps:** bump google-github-actions/auth in /gcp/cloudrun/deploy ([#30](https://github.com/NeoSpheres/.github/issues/30)) ([d7fdae9](https://github.com/NeoSpheres/.github/commit/d7fdae92b2959231682068f288b4e7fc25da4822))
+
 ## [1.4.3](https://github.com/NeoSpheres/.github/compare/v1.4.2...v1.4.3) (2023-12-13)
 
 
