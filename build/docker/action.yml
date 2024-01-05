@@ -119,7 +119,7 @@ runs:
             type=semver,pattern={{major}}
 
     - id: qemu
-      uses: docker/setup-qemu-action@v2
+      uses: docker/setup-qemu-action@v3
       if: inputs.platforms != 'linux/amd64'
       with:
         platforms: ${{ inputs.platforms }}
