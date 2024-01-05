@@ -125,7 +125,7 @@ runs:
         platforms: ${{ inputs.platforms }}
 
     # Build & Push Image
-    - uses: docker/build-push-action@v3
+    - uses: docker/build-push-action@v5
       with:
         context: ${{ inputs.path }}
         file: ${{ inputs.path }}/${{ inputs.file }}
