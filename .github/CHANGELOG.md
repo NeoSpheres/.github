@@ -1,5 +1,16 @@
 # Changelog
 
+## [1.4.5](https://github.com/NeoSpheres/.github/compare/v1.4.4...v1.4.5) (2024-01-24)
+
+
+### 🧰 Other
+
+* **deps:** bump docker/build-push-action from 3 to 5 in /build/docker ([#32](https://github.com/NeoSpheres/.github/issues/32)) ([7f82acd](https://github.com/NeoSpheres/.github/commit/7f82acd15267674de954c17262b7b028ffb8a85e))
+* **deps:** bump docker/login-action from 2 to 3 in /build/docker ([#36](https://github.com/NeoSpheres/.github/issues/36)) ([189fa01](https://github.com/NeoSpheres/.github/commit/189fa0153b49468c683888ff8968a4ec70022916))
+* **deps:** bump docker/metadata-action from 4 to 5 in /build/docker ([#37](https://github.com/NeoSpheres/.github/issues/37)) ([7279374](https://github.com/NeoSpheres/.github/commit/7279374ca3056a94b699913119fbcdc25a263cff))
+* **deps:** bump docker/setup-buildx-action in /build/docker ([#34](https://github.com/NeoSpheres/.github/issues/34)) ([192f606](https://github.com/NeoSpheres/.github/commit/192f60671babdb6b1c03811a8a1c189aa8069187))
+* **deps:** bump docker/setup-qemu-action from 2 to 3 in /build/docker ([#39](https://github.com/NeoSpheres/.github/issues/39)) ([0d747b9](https://github.com/NeoSpheres/.github/commit/0d747b93b0e90fe3a2ca74517d9fd080836dee87))
+
 ## [1.4.4](https://github.com/NeoSpheres/.github/compare/v1.4.3...v1.4.4) (2024-01-05)
 
 
