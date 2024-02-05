@@ -55,7 +55,7 @@ runs:
 
     - id: auth_identity_provider
       name: 'Authenticate to Google Cloud'
-      uses: 'google-github-actions/auth@v2.0.0'
+      uses: 'google-github-actions/auth@v2.1.1'
       if:  inputs.json_auth == null
       with:
         token_format: 'access_token'
@@ -64,7 +64,7 @@ runs:
 
     - id: auth_json
       name: 'Authenticate to Google Cloud'
-      uses: 'google-github-actions/auth@v2.0.0'
+      uses: 'google-github-actions/auth@v2.1.1'
       if: inputs.json_auth != null
       with:
         token_format: 'access_token'
