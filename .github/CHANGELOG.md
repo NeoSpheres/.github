@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.5.0](https://github.com/NeoSpheres/.github/compare/v1.4.5...v1.5.0) (2024-02-12)
+
+
+### 🚀 Features
+
+* Manage hotfix/* & release/* branch tag ([bbce1fb](https://github.com/NeoSpheres/.github/commit/bbce1fb58968cad0f69652d92f45aa5cbc5c0f2b))
+
 ## [1.4.5](https://github.com/NeoSpheres/.github/compare/v1.4.4...v1.4.5) (2024-01-24)
 
 
