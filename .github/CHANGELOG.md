@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.6.0](https://github.com/NeoSpheres/.github/compare/v1.5.0...v1.6.0) (2024-06-19)
+
+
+### 🚀 Features
+
+* add more docker tags ([937bca5](https://github.com/NeoSpheres/.github/commit/937bca516786a230bbb60b022815a2f14b27c496))
+
 ## [1.5.0](https://github.com/NeoSpheres/.github/compare/v1.4.5...v1.5.0) (2024-02-12)
 
 
