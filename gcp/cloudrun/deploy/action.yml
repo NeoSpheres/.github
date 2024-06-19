@@ -72,7 +72,7 @@ runs:
 
     - id: deploy_cloudrun
       name: 'Deploy to Cloud Run'
-      uses: 'google-github-actions/deploy-cloudrun@v1'
+      uses: 'google-github-actions/deploy-cloudrun@v2'
       with:
         image: ${{ inputs.artifact_registry }}/${{ inputs.image_name }}:${{ inputs.image_version }}
         service: ${{ inputs.service }}
