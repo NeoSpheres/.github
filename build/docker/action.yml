@@ -13,7 +13,11 @@ inputs:
     description: 'Docker image name'
     required: true
   tag:
-    description: 'Docker image tag'
+    description: 'Docker image tag 1'
+    required: false
+    default: ""
+  tag2:
+    description: 'Docker image tag 2'
     required: false
     default: ""
   platforms:
@@ -112,6 +116,7 @@ runs:
           ${{ steps.google_artifact.outputs.image }}
         tags: |
             ${{ inputs.tag }}
+            ${{ inputs.tag2 }}
             ${{ inputs.version }}
             type=ref,event=pr
             type=semver,pattern={{version}}
