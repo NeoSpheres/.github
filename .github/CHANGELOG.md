@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.7.0](https://github.com/NeoSpheres/.github/compare/v1.6.0...v1.7.0) (2024-06-25)
+
+
+### 🚀 Features
+
+* upgrade version because of node16 deprecation ([#52](https://github.com/NeoSpheres/.github/issues/52)) ([ece7ab2](https://github.com/NeoSpheres/.github/commit/ece7ab2ce1d44827ba13a3ffbc3eb0e48d995149))
+
 ## [1.6.0](https://github.com/NeoSpheres/.github/compare/v1.5.0...v1.6.0) (2024-06-19)
 
 
