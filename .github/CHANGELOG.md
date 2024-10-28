@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.8.0](https://github.com/NeoSpheres/.github/compare/v1.7.0...v1.8.0) (2024-10-28)
+
+
+### 🚀 Features
+
+* add new docker tags and pin version ([6f0fca5](https://github.com/NeoSpheres/.github/commit/6f0fca5d8ebc0c3fd1b35c2a8d21a9c4fdb90cb7))
+
 ## [1.7.0](https://github.com/NeoSpheres/.github/compare/v1.6.0...v1.7.0) (2024-06-25)
 
 
