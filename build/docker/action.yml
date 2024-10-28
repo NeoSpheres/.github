@@ -12,21 +12,29 @@ inputs:
   name:
     description: 'Docker image name'
     required: true
+  version:
+    description: 'Docker image version tag (manual)'
+    required: false
+    default: ""
   tag:
-    description: 'Docker image tag 1'
+    description: 'Docker image custom tag 1 (manual)'
     required: false
     default: ""
   tag2:
-    description: 'Docker image tag 2'
+    description: 'Docker image custom tag 2 (manual)'
+    required: false
+    default: ""
+  tag3:
+    description: 'Docker image custom tag 3 (manual)'
+    required: false
+    default: ""
+  tag4:
+    description: 'Docker image custom tag 4 (manual)'
     required: false
     default: ""
   platforms:
     required: false
     default: "linux/amd64"
-  version:
-    description: 'Docker image version tag (manual)'
-    required: false
-    default: ""
   file:
     description: 'Dockerfile name'
     required: false
@@ -109,7 +117,7 @@ runs:
 
     # Prepare Image Build
     - id: meta
-      uses: docker/metadata-action@v5
+      uses: docker/metadata-action@v5.5.1
       with:
         images: |
           ${{ inputs.registry }}/neospheres/${{ inputs.name }}
@@ -117,6 +125,8 @@ runs:
         tags: |
             ${{ inputs.tag }}
             ${{ inputs.tag2 }}
+            ${{ inputs.tag3 }}
+            ${{ inputs.tag4 }}
             ${{ inputs.version }}
             type=ref,event=pr
             type=semver,pattern={{version}}
