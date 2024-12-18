@@ -46,7 +46,7 @@ runs:
             TAG=latest
           ;;
           *)
-            TAG=none
+            TAG=latest
             PUSH=false
           ;;
         esac
