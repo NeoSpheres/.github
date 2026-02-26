@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.8.1](https://github.com/NeoSpheres/.github/compare/v1.8.0...v1.8.1) (2026-02-26)
+
+
+### 📚 Documentation
+
+* add hotfix process documentation for java services ([34330b2](https://github.com/NeoSpheres/.github/commit/34330b2ec91a58ffcb62eafabe986d8b6e412702))
+
 ## [1.8.0](https://github.com/NeoSpheres/.github/compare/v1.7.0...v1.8.0) (2024-10-28)
 
 
